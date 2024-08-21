@@ -39,7 +39,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Developed a responsive photo repository website allowing users to browse, search, and download copyright-free images.Implemented user authentication and private album features, enabling users to create accounts, save favorite photos, and manage personal collections securely. Designed and optimized the site for full responsiveness, ensuring a seamless browsing and downloading  experience across various devices and screen sizes",
-    technologies: ["React.js", "Node.js", "Firebase", "Express.js"],
+    technologies: ["React.js", "Firebase", "Tailwind CSS"],
     github:"https://github.com/Pritomsaha27/PixelPerfect",
     
   }
