@@ -9,9 +9,9 @@ const Navbar = () => {
         className="m-8 flex items-center justify-center gap-4 text-4xl
          "
       >
-        <a href="https://github.com/Pritomsaha27"> <FaGithub /></a>
-       <a href="https://wa.me/6294949768"> <FaWhatsapp /></a> 
-       <a href="https://www.linkedin.com/in/pritom-saha-8a94482b4">  <FaLinkedin /></a> 
+        <a href="https://github.com/Pritomsaha27" target="blank"> <FaGithub /></a>
+       <a href="https://wa.me/6294949768" target="blank"> <FaWhatsapp /></a> 
+       <a href="https://www.linkedin.com/in/pritom-saha-0bb0a6324" target="blank"><FaLinkedin /></a> 
       </div>
     </nav>
   );
