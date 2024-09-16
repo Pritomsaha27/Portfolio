@@ -43,8 +43,8 @@ const Project = () => {
               <div className="flex jusify-center gap-1">
               <p className="mb-2 text-2xl font-semibold">{project.name} <span className="text-sm px-2">
               {project.status}</span> </p>
-              <a href={project.github}><img src={git} className="w-8 h-8" alt="" /></a>
-              <a href={project.link}><img src={link} className="w-7 h-7" alt="" /></a>
+              <a href={project.github} target="blank" ><img src={git} className="w-8 h-8" alt="" /></a>
+              <a href={project.link} target="blank" ><img src={link} className="w-7 h-7" alt="" /></a>
 
               </div>
               <h6 className="mb-2 font-semibold">{project.title}</h6>

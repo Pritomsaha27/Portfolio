@@ -23,26 +23,26 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    name : "PixelPerfect",
+    title: "Copyright-Free Stock Photos Website",
+    image: project2,
+    description:
+      "Developed a responsive photo repository website that allows users to browse, search, and download copyright-free images. Implemented infinite scroll functionality to provide a seamless and uninterrupted browsing experience, automatically loading more images as the user scrolls down. Integrated user authentication and multiple account binding, enabling users to create accounts using various providers and manage them under a single profile. Added private album features, allowing users to save favorite photos and manage personal collections securely. The website is designed and optimized for full responsiveness, ensuring a smooth browsing and downloading experience across various devices and screen sizes.",
+    technologies: ["React.js", "Express.js", "Node.js","MongoDB"],
+    github:"https://github.com/Pritomsaha27/PixelPerfect",
+    link:"https://pixelperfectapp.netlify.app/"
+  },
   { name: "8-Bit Technologies",
     title: "Website Design and Development for Software Company",
     image: project1,
     description:
       " Designed and developed a fully responsive tech company website with essential sections including About Us, Careers, Contact Page, Services, and Free Consultancy, ensuring a comprehensive online presence. Implemented engaging animations and visual enhancements to improve user experience and interaction, utilizing modern web technologies to deliver a visually appealing and dynamic website.",
-    technologies: ["React.js", "JSX", "Tailwind CSS"],
+    technologies: ["React.js", "Tailwind CSS"],
     github:"https://github.com/Pritomsaha27/8-Bit-Technologies",
     link:"https://eightbittech.netlify.app/"
   },
-  {
-    name : "PixelPerfect",
-    status:"[ Ongoing ]",
-    title: "Copyright-Free Stock Photos Website",
-    image: project2,
-    description:
-      "Developed a responsive photo repository website allowing users to browse, search, and download copyright-free images.Implemented user authentication and private album features, enabling users to create accounts, save favorite photos, and manage personal collections securely. Designed and optimized the site for full responsiveness, ensuring a seamless browsing and downloading  experience across various devices and screen sizes",
-    technologies: ["React.js", "Firebase", "Tailwind CSS"],
-    github:"https://github.com/Pritomsaha27/PixelPerfect",
-    
-  }
+  
 ];
 
 export const CONTACT = {
